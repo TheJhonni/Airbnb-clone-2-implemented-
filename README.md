@@ -12,6 +12,16 @@ with Next &amp; tailWindCss &amp; HeroIcons# react-airbnb-clone
 
 > - npm start
 
+# Homepage
+
+![Homepage](Homepage.jpeg)
+# SearchInput
+
+![SearchInput](SearchInput.jpeg)
+# Searchpage
+
+![Searchpage](Searchpage.jpeg)
+
 ## Host a React Application on Firebase
 
 > - firebase login
