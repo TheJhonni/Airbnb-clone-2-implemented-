@@ -1,16 +1,7 @@
-# Airbnb-clone-2-implemented-
-with Next &amp; tailWindCss &amp; HeroIcons# react-airbnb-clone
+# 🚀 Airbnb-clone With React && Tailwind CSS
 
-## Create a Firebase project to host the application
+Learn how to quickly set up a React project with the Tailwind CSS framework using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Create React App and it uses PurgeCSS to remove all the unused CSS classes from the production build.
 
-- Login to firebase 
-- Create a project (E.g., airbnb-clone)
-
-## Run the app locally 
-
-> - npm install
-
-> - npm start
 
 # Homepage
 
@@ -22,23 +13,41 @@ with Next &amp; tailWindCss &amp; HeroIcons# react-airbnb-clone
 
 ![Searchpage](Searchpage.jpeg)
 
-## Host a React Application on Firebase
 
-> - firebase login
+## Live Demo
 
-> - firebase init
+The [Digital Inspiration](https://digitalinspiration.com/) website is built with the Tailwind CSS, React.js and Gatsby.
 
-Now, choose the project that you have created in firebase
+[CodeSandbox](https://codesandbox.io/s/github/labnol/react-tailwind) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Vercel](https://csb-ggfl7-ipit3clvr.vercel.app/)
 
-Deploy the application locally
+### Available npm scripts
 
-> - npm build
+In the project directory, you can run:
 
-Its all set to deploy to firebase
+### `npm run start`
 
-> - firebase deploy
+Runs the app in the development mode.
 
-Hola its done... Deployed to Firebase !!!
+Open `http://localhost:3000` to view it in the browser.
+
+The page will reload if you make edits. You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the React app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+
+### `npm run inline`
+
+This command uses `Gulp` to inline all the JavaScript and CSS files from the production build into a single minified file.
+
+### 📧 Contact
+
+The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about). It is now updated to support Tailwind CSS v2.0.
+
+If you have any questions or feedback, send an email at [amit@labnol.org](mailto:amit@labnol.org?subject=Tailwind+React).
+
 
 
 ### Demo Link
@@ -46,6 +55,3 @@ Hola its done... Deployed to Firebase !!!
 -  https://airbnb-clone-55c6e.web.app/
 
 
-#### Screenshots
-
-![Airbnb](/screenshots/airbnb.png)
