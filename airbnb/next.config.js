@@ -4,6 +4,6 @@ module.exports = {
   },
   env: {
     mapbox_key:
-      "pk.eyJ1IjoidGhlamhvbm5pIiwiYSI6ImNrejE2YTZrajFhaW0yd3FrbjJscWtkdmMifQ.WLL9PEgFXSS8Ex0ElLQxTQ",
+      "pk.eyJ1IjoidGhlamhvbm5pIiwiYSI6ImNrejJ1MzgyejAwYnoybmtiMGcxaGhwZ3YifQ.DXcG_bmAKRGIzSHFN_e5cw",
   },
 };
