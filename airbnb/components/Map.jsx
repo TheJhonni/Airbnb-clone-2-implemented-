@@ -4,6 +4,7 @@ import getCenter from "geolib/es/getCenter";
 
 function Map({ searchResults }) {
   const [selectedLocation, setSelectedLocation] = useState({});
+
   const coordinates = searchResults.map((result) => ({
     longitude: result.long,
     latitude: result.lat,
@@ -26,7 +27,7 @@ function Map({ searchResults }) {
       {...viewport}
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
     >
-      {searchResults.map((result) => {
+      {searchResults.map((result) => (
         <div key={result.long}>
           <Marker
             longitude={result.long}
@@ -56,8 +57,8 @@ function Map({ searchResults }) {
           ) : (
             false
           )}
-        </div>;
-      })}
+        </div>
+      ))}
     </ReactMapGL>
   );
 }
