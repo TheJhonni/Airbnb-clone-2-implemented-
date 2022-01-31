@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactMapGL from "react-map-gl";
-import { getCenter } from "geolib";
+import getCenter from "geolib/es/getCenter";
 
 function Map({ searchResults }) {
   const coordinates = searchResults.map((result) => ({
