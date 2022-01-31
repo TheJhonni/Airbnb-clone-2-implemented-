@@ -15,7 +15,7 @@ Learn how to quickly set up a React project with the Tailwind CSS framework usin
 
 # Geo-MAP + Markers + Popups
 
-![MAP](MAP.jpeg)
+![GeoMap+](GeoMap+.jpeg)
 
 
 ## Live Demo
